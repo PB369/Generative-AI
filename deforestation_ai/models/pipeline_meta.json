@@ -1,0 +1,52 @@
+{
+  "selected_features": [
+    "latitude",
+    "temp_superficie",
+    "umidade_relativa",
+    "ndvi",
+    "ndwi",
+    "precipitacao_30d",
+    "frp_fogo",
+    "dist_estrada_km",
+    "dist_area_protegida_km",
+    "dias_sem_chuva"
+  ],
+  "all_features": [
+    "latitude",
+    "longitude",
+    "mes",
+    "temp_superficie",
+    "umidade_relativa",
+    "ndvi",
+    "ndwi",
+    "precipitacao_30d",
+    "velocidade_vento",
+    "frp_fogo",
+    "dist_estrada_km",
+    "dist_area_protegida_km",
+    "densidade_pop",
+    "altitude_m",
+    "dias_sem_chuva",
+    "estacao_seca"
+  ],
+  "target_classes": [
+    "Alto",
+    "Baixo",
+    "M\u00e9dio"
+  ],
+  "best_model": "XGBoost",
+  "results": [
+    {
+      "model": "Random Forest",
+      "accuracy_test": 0.76,
+      "cv_mean": 0.7981,
+      "cv_std": 0.0183
+    },
+    {
+      "model": "XGBoost",
+      "accuracy_test": 0.7725,
+      "cv_mean": 0.7862,
+      "cv_std": 0.0223
+    }
+  ]
+}
